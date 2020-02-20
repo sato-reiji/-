@@ -88,9 +88,15 @@ header {
 }
 .date-title-summary {
     list-style: none;
-    display: block;
     height: 140px;
-    
+    float: left;
+    width: 320px;
+    overflow: hidden;
+}
+.date-title-summary:after {
+    clear: both;
+    display: block;
+    content: " ";
 }
 .date {
     font-size: 12px;
@@ -144,4 +150,3 @@ header {
     padding-top: 60px;
 }
 
-}
